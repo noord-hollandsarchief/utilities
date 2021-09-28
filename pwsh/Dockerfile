@@ -97,13 +97,13 @@ RUN chmod a+x,o-w ${PS_INSTALL_FOLDER}/pwsh \
 
 # Create an 'app' user, so we don't run the install as root. 
 # There could potentially be malicious code in the package manager repo
-RUN useradd app
+#RUN useradd app
 #RUN groupadd app
-RUN usermod -a -G app app
+#RUN usermod -a -G app app
 
 # Create the working folder and change owner
 WORKDIR /wrk
-RUN chown -R app:app /wrk
-USER app
+#RUN chown -R app:app /wrk
+#USER app
 
 CMD [ "pwsh", "-File", "/wrk/Execute.ps1" ]
