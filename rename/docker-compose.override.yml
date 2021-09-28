@@ -5,7 +5,7 @@ services:
     ports:
       - "8001:8080"
     volumes:
-      - D:\nha-utilities\rename\wrk:/wrk
+      - D:\utilities\rename\wrk:/wrk
   pwsh.container:
     volumes:
-      - D:\nha-utilities\rename\wrk:/wrk
+      - D:\utilities\rename\wrk:/wrk

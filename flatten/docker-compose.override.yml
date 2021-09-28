@@ -5,7 +5,7 @@ services:
     ports:
       - "8000:8080"
     volumes:
-      - D:\nha-utilities\flatten\wrk:/wrk
+      - D:\utilities\flatten\wrk:/wrk
   pwsh.container:
     volumes:
-      - D:\nha-utilities\flatten\wrk:/wrk
+      - D:\utilities\flatten\wrk:/wrk

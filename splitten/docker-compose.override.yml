@@ -5,7 +5,7 @@ services:
     ports:
       - "8003:8080"
     volumes:
-      - D:\nha-utilities\splitten\wrk:/wrk
+      - D:\utilities\splitten\wrk:/wrk
   pwsh.container:
     volumes:
-      - D:\nha-utilities\splitten\wrk:/wrk
+      - D:\utilities\splitten\wrk:/wrk

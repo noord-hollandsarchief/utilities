@@ -5,7 +5,7 @@ services:
     ports:
       - "8002:8080"
     volumes:
-      - D:\nha-utilities\restructure\wrk:/wrk
+      - D:\utilities\restructure\wrk:/wrk
   pwsh.container:
     volumes:
-      - D:\nha-utilities\restructure\wrk:/wrk
+      - D:\utilities\restructure\wrk:/wrk
