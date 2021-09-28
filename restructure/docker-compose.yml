@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  restructure.webapi:
+    image: restructure
+    container_name: restructure
+    build: 
+        context: .
+        dockerfile: Dockerfile 
+    networks:
+        - restructure_network
+  pwsh.container:
+    image: restructure_pwsh
+    container_name: pwsh3
+    build:
+        context: ../pwsh
+        dockerfile: Dockerfile
+    networks:
+        - restructure_network
+    depends_on:
+        - restructure.webapi
+networks:
+  restructure_network:
+    driver: bridge

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ToPX xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.nationaalarchief.nl/ToPX/v2.3">
+  <aggregatie>
+    <identificatiekenmerk>2018</identificatiekenmerk>
+    <aggregatieniveau>Archief</aggregatieniveau>
+    <naam>Provincie Noord Holland</naam>
+    <dekking>
+      <inTijd>
+        <begin>
+          <jaar>2012</jaar>
+        </begin>
+        <eind>
+          <jaar>2017</jaar>
+        </eind>
+      </inTijd>
+      <geografischGebied />
+    </dekking>
+    <taal>dut</taal>
+    <context>
+      <actor>
+        <identificatiekenmerk>KVK 34362354</identificatiekenmerk>
+        <aggregatieniveau>Organisatie</aggregatieniveau>
+        <geautoriseerdeNaam>Provincie Noord-Holland</geautoriseerdeNaam>
+        <plaats>Haarlem</plaats>
+        <jurisdictie />
+      </actor>
+    </context>
+    <openbaarheid>
+      <omschrijvingBeperkingen>Openbaar</omschrijvingBeperkingen>
+      <datumOfPeriode>
+        <jaar>2018</jaar>
+      </datumOfPeriode>
+    </openbaarheid>
+    <integriteit>1</integriteit>
+  </aggregatie>
+</ToPX>

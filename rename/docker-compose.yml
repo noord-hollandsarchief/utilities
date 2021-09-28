@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  rename.webapi:
+    image: rename
+    container_name: rename
+    build: 
+        context: .
+        dockerfile: Dockerfile 
+    networks:
+        - rename_network
+  pwsh.container:
+    image: rename_pwsh
+    container_name: pwsh2
+    build:
+        context: ../pwsh
+        dockerfile: Dockerfile
+    networks:
+        - rename_network
+    depends_on:
+        - rename.webapi
+networks:
+  rename_network:
+    driver: bridge

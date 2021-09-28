@@ -1,0 +1,1 @@
+tar -cvf 'Provincie Noord Holland.tar' 'Provincie Noord Holland' && rm -R 'Provincie Noord Holland'

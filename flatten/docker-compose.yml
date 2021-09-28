@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  flatten.webapi:
+    image: flatten
+    container_name: flatten
+    build: 
+        context: .
+        dockerfile: Dockerfile
+    networks:
+        - flatten_network
+  pwsh.container:
+    image: flatten_pwsh
+    container_name: pwsh1
+    build:
+        context: ../pwsh
+        dockerfile: Dockerfile
+    networks:
+        - flatten_network
+    depends_on:
+        - flatten.webapi
+networks:
+  flatten_network:
+    driver: bridge

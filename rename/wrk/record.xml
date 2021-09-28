@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ToPX xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.nationaalarchief.nl/ToPX/v2.3">
+  <aggregatie>
+    <identificatiekenmerk>997752</identificatiekenmerk>
+    <aggregatieniveau>Record</aggregatieniveau>
+    <naam>PB 2017-103 Besluit van GS van NH nr. 987217/987221 d.d. 14 september 2017 tot het plaatsen van verkeerstekens van Bijlage 7 van het Binnenvaartpolitiereglement in verband met het vernieuwen van de Wilhelminasluis te Zaandam</naam>
+    <externIdentificatiekenmerk>
+      <kenmerkSysteem />
+      <nummerBinnenSysteem />
+    </externIdentificatiekenmerk>
+    <taal>dut</taal>
+    <eventGeschiedenis>
+      <datumOfPeriode>
+        <datum>2017-09-20</datum>
+      </datumOfPeriode>
+      <type>Creatie</type>
+      <beschrijving />
+      <verantwoordelijkeFunctionaris>Doets, mw. F. (Frida)</verantwoordelijkeFunctionaris>
+    </eventGeschiedenis>
+    <eventGeschiedenis>
+      <datumOfPeriode>
+        <datum>2017-09-20</datum>
+      </datumOfPeriode>
+      <type>Ontvangst</type>
+      <beschrijving />
+      <verantwoordelijkeFunctionaris>Doets, mw. F. (Frida)</verantwoordelijkeFunctionaris>
+    </eventGeschiedenis>
+    <eventGeschiedenis>
+      <datumOfPeriode>
+        <datum>2018-01-29</datum>
+      </datumOfPeriode>
+      <type>Verzending</type>
+      <beschrijving />
+      <verantwoordelijkeFunctionaris>DIV</verantwoordelijkeFunctionaris>
+    </eventGeschiedenis>
+    <relatie>
+      <relatieID>903574</relatieID>
+      <typeRelatie>Maakt deel uit van</typeRelatie>
+      <datumOfPeriode>
+        <datum>1600-01-01</datum>
+      </datumOfPeriode>
+    </relatie>
+    <context>
+      <actor>
+        <identificatiekenmerk>186100</identificatiekenmerk>
+        <aggregatieniveau>Verantwoordelijke ambtenaarN</aggregatieniveau>
+        <geautoriseerdeNaam />
+        <plaats />
+        <jurisdictie />
+      </actor>
+    </context>
+    <openbaarheid>
+      <omschrijvingBeperkingen>Openbaar</omschrijvingBeperkingen>
+      <datumOfPeriode>
+        <jaar>2018</jaar>
+      </datumOfPeriode>
+    </openbaarheid>
+    <vorm>
+      <redactieGenre>Besluit</redactieGenre>
+      <verschijningsvorm />
+      <structuur />
+    </vorm>
+    <integriteit>1</integriteit>
+  </aggregatie>
+</ToPX>

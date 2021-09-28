@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  rename.webapi:
+    ports:
+      - "8001:8080"
+    volumes:
+      - D:\nha-utilities\rename\wrk:/wrk
+  pwsh.container:
+    volumes:
+      - D:\nha-utilities\rename\wrk:/wrk

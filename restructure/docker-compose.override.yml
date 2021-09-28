@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  restructure.webapi:
+    ports:
+      - "8002:8080"
+    volumes:
+      - D:\nha-utilities\restructure\wrk:/wrk
+  pwsh.container:
+    volumes:
+      - D:\nha-utilities\restructure\wrk:/wrk

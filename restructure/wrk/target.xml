@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ToPX xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.nationaalarchief.nl/ToPX/v2.3">
+  <bestand>
+    <identificatiekenmerk>4CB50D41-39C0-4DBC-8194-AB317588D2D9</identificatiekenmerk>
+    <aggregatieniveau>Bestand</aggregatieniveau>
+    <naam>201738/402/97E7C8A9C140467CA15C6035558784D2.docx</naam>
+    <vorm>
+      <redactieGenre>Besluit</redactieGenre>
+      <verschijningsvorm />
+      <structuur />
+    </vorm>
+    <formaat>
+      <identificatiekenmerk>4CB50D41-39C0-4DBC-8194-AB317588D2D9</identificatiekenmerk>
+      <bestandsnaam>
+        <naam>201738/402/97E7C8A9C140467CA15C6035558784D2.docx</naam>
+        <extensie>docx</extensie>
+      </bestandsnaam>
+      <type>enkelvoudig</type>
+      <omvang>171190 bytes</omvang>
+      <bestandsformaat>application/vnd.openxmlformats-officedocument.wordprocessingml.document</bestandsformaat>
+      <creatieapplicatie>
+        <naam>WINWORD.EXE</naam>
+        <datumAanmaak>2017-09-20</datumAanmaak>
+      </creatieapplicatie>
+      <fysiekeIntegriteit>
+        <algoritme>SHA512</algoritme>
+        <waarde>35dbc0626df40c565023b53a920960accf2a5be773adb5b98e188250d81a69236eda0a025b68451f91d1f554e4f02dff608633cd562c0a8f4b5b526097040582</waarde>
+        <datumEnTijd>2018-02-01T15:26:56.0144278+01:00</datumEnTijd>
+      </fysiekeIntegriteit>
+      <datumAanmaak>2017-09-20</datumAanmaak>
+    </formaat>
+  </bestand>
+</ToPX>
