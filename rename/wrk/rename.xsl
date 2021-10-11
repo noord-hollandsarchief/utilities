@@ -16,7 +16,7 @@
     </xsl:template>
 	
 	<xsl:param name="recordName" select="document('record.xml')/x:ToPX/x:aggregatie/x:naam/text()" />
-	<xsl:param name="pReplacement" select="concat('Titel: ', $recordName, ' (Bestandsnaam: ', /x:ToPX/x:bestand/x:naam/text(), ')')"/>
+	<xsl:param name="pReplacement" select="concat($recordName, ' (Bestandsnaam: ', /x:ToPX/x:bestand/x:naam/text(), ')')"/>
 	
 	<xsl:template match="/x:ToPX/x:bestand/x:naam/text()">
 		<xsl:value-of select="$pReplacement"/>
